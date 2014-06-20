@@ -1,0 +1,37 @@
+/********************************************************************************************/
+/********************************************************************************************/
+/*******************************       IPHONE 4 (RETINA)       ******************************/
+/********************************************************************************************/
+/********************************************************************************************/
+
+
+/* DRAG AREA */
+#dragarea {
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	border: 0px solid #EEEEEE;
+	background-color: #FFF;
+}
+
+.p!ortrait {
+	width: 642px; /* Add 2 pixels more e.g. make 1024 -> 1026 */
+	height: 962px; /* Add 2 pixels more e.g. make 768 -> 770 */
+}
+
+.l!andscape {
+	width: 962px; /* Add 2 pixels more e.g. make 1024 -> 1026 */
+	height: 642px; /* Add 2 pixels more e.g. make 768 -> 770 */
+}
+
+/* TYPE-IMAGEGALLERY */
+.type-imageGallery ul {
+	margin: 0;
+	padding: 0;
+}
+
+.type-imageGallery li {
+	float: left;
+	padding: 0;
+	margin: 5px 0 0 5px;
+}
